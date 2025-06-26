@@ -1,0 +1,35 @@
+# Proteger arquivos sensíveis
+<FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Proteger arquivos de configuração
+<FilesMatch "\.(ini|log|sh|inc|bak|config|sql|env|md)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Configurações de segurança
+Options -Indexes
+Options -ExecCGI
+
+# Configurar PHP se disponível
+<IfModule mod_php7.c>
+    php_flag display_errors off
+    php_flag log_errors on
+    php_value max_execution_time 300
+    php_value max_input_time 300
+    php_value upload_max_filesize 10M
+    php_value post_max_size 10M
+</IfModule>
+
+# Charset padrão
+AddDefaultCharset UTF-8
+
+# Proteção contra XSS
+<IfModule mod_headers.c>
+    Header set X-XSS-Protection "1; mode=block"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-Content-Type-Options "nosniff"
+</IfModule>

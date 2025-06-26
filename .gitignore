@@ -1,0 +1,37 @@
+# Sistema de Informações CGLIC - GitIgnore
+
+# Cache e temporários
+cache/*.cache
+storage/uploads/*.csv
+storage/uploads/*.xls
+storage/uploads/*.xlsx
+
+# Backups gerados
+backups/database/*.sql
+backups/files/*.zip
+
+# Logs
+logs/*.log
+*.log
+
+# Configurações locais específicas
+config_local.php
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Uploads de produção (manter estrutura)
+storage/uploads/*
+!storage/uploads/.gitkeep
+
+# Cache de produção
+cache/*
+!cache/.gitkeep

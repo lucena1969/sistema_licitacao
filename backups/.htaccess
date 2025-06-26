@@ -1,0 +1,13 @@
+# Proteger pasta de backups
+# Negar acesso direto via web
+
+<Files "*">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+# Permitir apenas scripts PHP autorizados
+<FilesMatch "\.(php)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>

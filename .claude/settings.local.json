@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm:*)",
+      "Bash(mysql:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(mkdir:*)",
+      "Bash(rg:*)",
+      "Bash(chmod:*)",
+      "Bash(php:*)",
+      "Bash(ls:*)",
+      "Bash(mv:*)",
+      "Bash(cp:*)",
+      "Bash(tree:*)",
+      "Bash(/mnt/c/xampp/php/php debug_db_structure.php)",
+      "Bash(/mnt/c/xampp/php/php.exe debug_db_structure.php)",
+      "Bash(curl:*)",
+      "Bash(/mnt/c/xampp/php/php execute_migration.php)",
+      "Bash(git add:*)",
+      "Bash(git push:*)",
+      "Bash(git config:*)",
+      "Bash(git pull:*)",
+      "Bash(git merge:*)",
+      "Bash(git commit:*)",
+      "Bash(sudo apt:*)",
+      "Bash(sudo apt install:*)",
+      "Bash(sudo mysql:*)",
+      "Bash(sudo systemctl:*)",
+      "Bash(sudo service:*)",
+      "Bash(pkill:*)",
+      "Bash(sudo chmod:*)",
+      "Bash(head:*)",
+      "Bash(wc:*)",
+      "Bash(file:*)",
+      "Bash(sed:*)",
+      "Bash(true)"
+    ],
+    "deny": []
+  }
+}

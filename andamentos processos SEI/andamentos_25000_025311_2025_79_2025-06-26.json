@@ -1,0 +1,1074 @@
+{
+  "nup": "25000.025311/2025-79",
+  "processo_id": "desc",
+  "timestamp": "2025-06-26T14:47:49.035Z",
+  "total_andamentos": 151,
+  "total_paginas": 2,
+  "andamentos": [
+    {
+      "processo_id": "desc",
+      "data_hora": "25/06/2025 17:58",
+      "unidade": "CODEP",
+      "usuario": "kelly.fernandes",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "25/06/2025 17:27",
+      "unidade": "CODEP",
+      "usuario": "marcello.fernandes",
+      "descricao": "Processo remetido pela unidade CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "25/06/2025 13:26",
+      "unidade": "CGLIC",
+      "usuario": "ducilene.andrade",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "25/06/2025 12:51",
+      "unidade": "CGLIC",
+      "usuario": "adriana.monteiro",
+      "descricao": "Processo remetido pela unidade CCONT/CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "20/06/2025 11:01",
+      "unidade": "CCONT/CGLIC",
+      "usuario": "adriana.monteiro",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "18/06/2025 15:56",
+      "unidade": "CCONT/CGLIC",
+      "usuario": "marcello.fernandes",
+      "descricao": "Processo remetido pela unidade CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "18/06/2025 15:27",
+      "unidade": "CGLIC",
+      "usuario": "romario.freitas",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "18/06/2025 15:22",
+      "unidade": "CGLIC",
+      "usuario": "cassiana.schio",
+      "descricao": "Processo remetido pela unidade CODEP"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "17/06/2025 10:37",
+      "unidade": "CODEP",
+      "usuario": "kelly.fernandes",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "17/06/2025 10:28",
+      "unidade": "CODEP",
+      "usuario": "marcello.fernandes",
+      "descricao": "Processo remetido pela unidade CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "16/06/2025 17:37",
+      "unidade": "CGLIC",
+      "usuario": "ducilene.andrade",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "16/06/2025 17:35",
+      "unidade": "CGLIC",
+      "usuario": "adriana.monteiro",
+      "descricao": "Processo remetido pela unidade CCONT/CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "12/06/2025 13:00",
+      "unidade": "CCONT/CGLIC",
+      "usuario": "adriana.monteiro",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "12/06/2025 12:20",
+      "unidade": "CCONT/CGLIC",
+      "usuario": "marcello.fernandes",
+      "descricao": "Processo remetido pela unidade CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "12/06/2025 09:53",
+      "unidade": "CGLIC",
+      "usuario": "ducilene.andrade",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "12/06/2025 09:43",
+      "unidade": "CGLIC",
+      "usuario": "cassiana.schio",
+      "descricao": "Processo remetido pela unidade CODEP"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "11/06/2025 10:29",
+      "unidade": "CODEP",
+      "usuario": "cassiana.schio",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "10/06/2025 16:52",
+      "unidade": "CODEP",
+      "usuario": "marcello.fernandes",
+      "descricao": "Processo remetido pela unidade CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "10/06/2025 15:34",
+      "unidade": "CGLIC",
+      "usuario": "romario.freitas",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "10/06/2025 15:29",
+      "unidade": "CGLIC",
+      "usuario": "adriana.monteiro",
+      "descricao": "Processo remetido pela unidade CCONT/CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "09/06/2025 11:25",
+      "unidade": "CCONT/CGLIC",
+      "usuario": "amauri.medeiros",
+      "descricao": "Envio de correspondência eletrônica 0048328540 (E-mail)"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "09/06/2025 10:55",
+      "unidade": "CGLIC",
+      "usuario": "ducilene.andrade",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "09/06/2025 10:54",
+      "unidade": "CGLIC",
+      "usuario": "ducilene.andrade",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "09/06/2025 10:13",
+      "unidade": "CCONT/CGLIC",
+      "usuario": "amauri.medeiros",
+      "descricao": "Envio de correspondência eletrônica 0048323777 (E-mail)"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "06/06/2025 14:22",
+      "unidade": "CODEP",
+      "usuario": "cassiana.schio",
+      "descricao": "Envio de correspondência eletrônica 0048304749 (E-mail)"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "05/06/2025 16:10",
+      "unidade": "CCONT/CGLIC",
+      "usuario": "amauri.medeiros",
+      "descricao": "Envio de correspondência eletrônica 0048281592 (E-mail)"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "05/06/2025 16:06",
+      "unidade": "CCONT/CGLIC",
+      "usuario": "amauri.medeiros",
+      "descricao": "Liberada assinatura externa para o usuário Ione Chaves De Oliveira (diretora@onecursos.com.br) no documento 0048270646 (Contrato 48) até 09/06/2025 (04 dias). Sem acesso ao processo."
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "05/06/2025 14:30",
+      "unidade": "CCONT/CGLIC",
+      "usuario": "adriana.monteiro",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "05/06/2025 14:27",
+      "unidade": "CCONT/CGLIC",
+      "usuario": "patricia.escobar",
+      "descricao": "Processo remetido pela unidade DIORC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "04/06/2025 15:23",
+      "unidade": "CCONT/CGLIC",
+      "usuario": "adriana.monteiro",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "04/06/2025 13:44",
+      "unidade": "CCONT/CGLIC",
+      "usuario": "helio.soares",
+      "descricao": "Processo remetido pela unidade DIORC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "03/06/2025 14:47",
+      "unidade": "DIORC",
+      "usuario": "helio.soares",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "03/06/2025 14:25",
+      "unidade": "DIORC",
+      "usuario": "diogo.sousa",
+      "descricao": "Processo remetido pela unidade CGOF/SAA"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "03/06/2025 14:24",
+      "unidade": "CGOF/SAA",
+      "usuario": "diogo.sousa",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "03/06/2025 14:14",
+      "unidade": "DIORC",
+      "usuario": "patricia.escobar",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "03/06/2025 14:10",
+      "unidade": "DIORC",
+      "usuario": "marcello.fernandes",
+      "descricao": "Processo remetido pela unidade CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "03/06/2025 14:10",
+      "unidade": "CGOF/SAA",
+      "usuario": "marcello.fernandes",
+      "descricao": "Processo remetido pela unidade CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "03/06/2025 13:37",
+      "unidade": "CGLIC",
+      "usuario": "ducilene.andrade",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "03/06/2025 13:33",
+      "unidade": "CGLIC",
+      "usuario": "raphael.carvalho",
+      "descricao": "Processo remetido pela unidade CCLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "03/06/2025 13:30",
+      "unidade": "CCLIC",
+      "usuario": "raphael.carvalho",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "03/06/2025 08:17",
+      "unidade": "DIPLI",
+      "usuario": "graciene.sousa",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "03/06/2025 07:27",
+      "unidade": "DIPLI",
+      "usuario": "graciene.sousa",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "02/06/2025 19:58",
+      "unidade": "DIPLI",
+      "usuario": "marcello.fernandes",
+      "descricao": "Processo remetido pela unidade CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "02/06/2025 19:58",
+      "unidade": "CCLIC",
+      "usuario": "marcello.fernandes",
+      "descricao": "Processo remetido pela unidade CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "02/06/2025 17:42",
+      "unidade": "CGLIC",
+      "usuario": "romario.freitas",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "02/06/2025 17:26",
+      "unidade": "CGLIC",
+      "usuario": "zainab.bazzi",
+      "descricao": "Processo remetido pela unidade COGAD/SAA"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "30/05/2025 13:53",
+      "unidade": "COGAD/SAA",
+      "usuario": "zainab.bazzi",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "30/05/2025 13:47",
+      "unidade": "COGAD/SAA",
+      "usuario": "marcello.fernandes",
+      "descricao": "Processo remetido pela unidade CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "28/05/2025 16:29",
+      "unidade": "CGLIC",
+      "usuario": "romario.freitas",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "28/05/2025 16:28",
+      "unidade": "CGLIC",
+      "usuario": "raphael.carvalho",
+      "descricao": "Processo remetido pela unidade CCLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "28/05/2025 16:18",
+      "unidade": "CCLIC",
+      "usuario": "raphael.carvalho",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "28/05/2025 16:04",
+      "unidade": "CCLIC",
+      "usuario": "rodrigo.torres",
+      "descricao": "Processo remetido pela unidade DIQUALI/CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "26/05/2025 12:12",
+      "unidade": "CODEP",
+      "usuario": "leticia.meira",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "26/05/2025 11:30",
+      "unidade": "CODEP",
+      "usuario": "liara.cordeiro",
+      "descricao": "Processo remetido pela unidade COGEP"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "26/05/2025 11:29",
+      "unidade": "COGEP",
+      "usuario": "liara.cordeiro",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "26/05/2025 11:29",
+      "unidade": "COGEP",
+      "usuario": "diogo.sousa",
+      "descricao": "Processo remetido pela unidade CGOF/SAA"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "23/05/2025 16:06",
+      "unidade": "DIQUALI/CGLIC",
+      "usuario": "rodrigo.torres",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "23/05/2025 15:45",
+      "unidade": "DIQUALI/CGLIC",
+      "usuario": "raphael.carvalho",
+      "descricao": "Processo remetido pela unidade CCLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "23/05/2025 15:37",
+      "unidade": "CCLIC",
+      "usuario": "raphael.carvalho",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "23/05/2025 15:30",
+      "unidade": "DIQUALI/CGLIC",
+      "usuario": "marcello.fernandes",
+      "descricao": "Processo remetido pela unidade CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "23/05/2025 15:30",
+      "unidade": "CCLIC",
+      "usuario": "marcello.fernandes",
+      "descricao": "Processo remetido pela unidade CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "23/05/2025 09:44",
+      "unidade": "CGLIC",
+      "usuario": "romario.freitas",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "23/05/2025 09:29",
+      "unidade": "CGLIC",
+      "usuario": "fabiane.ferreira",
+      "descricao": "Processo remetido pela unidade CODEP"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "14/05/2025 10:28",
+      "unidade": "CODEP",
+      "usuario": "fabiane.ferreira",
+      "descricao": "Considerando o novo modelo de TR da Lei nº 14.133/21estabelecido pela AGU a ser utilizado a partir de abril de 2025, foi realizada consulta à DIQUALI (0047757720)  sobre a padronização minutada do novo TR e ainda consulta à CONJUR, conforme processo 25000.069962/2025-71 sobre o parecer referencial utilizado por esta Unidade, tendo em vista que o mesmo encontra-se com prazo de validade expirado. Sanadas estas pendências, será dado andamento de competência da equipe de planejamento."
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "08/05/2025 16:27",
+      "unidade": "CODEP",
+      "usuario": "fabiane.ferreira",
+      "descricao": "Considerando o novo modelo de TR da Lei nº 14.133/21estabelecido pela AGU a ser utilizado a partir de abril de 2025, inicia-se alteração deste artefato no ComprasNet pela equipe de planejamneto, com vistas à adequação do documento e demais procedimentos até encaminhamento do processo à área de contratação."
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "25/04/2025 13:55",
+      "unidade": "CODEP",
+      "usuario": "fabiane.ferreira",
+      "descricao": "Necessidade de alteração do artefatos e documentos de responsabilidade da equipe de planejamneto, em decorrência dos Despachos 0046874401&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203; 0047236957"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "25/04/2025 11:13",
+      "unidade": "CODEP",
+      "usuario": "fabiane.ferreira",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "25/04/2025 11:06",
+      "unidade": "CODEP",
+      "usuario": "helio.soares",
+      "descricao": "Processo remetido pela unidade DIORC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "24/04/2025 16:39",
+      "unidade": "DIORC",
+      "usuario": "helio.soares",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "24/04/2025 14:59",
+      "unidade": "CGOF/SAA",
+      "usuario": "diogo.sousa",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "24/04/2025 14:57",
+      "unidade": "DIORC",
+      "usuario": "diogo.sousa",
+      "descricao": "Processo remetido pela unidade CGOF/SAA"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "23/04/2025 09:34",
+      "unidade": "CGOF/SAA",
+      "usuario": "daniel.dias",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "22/04/2025 17:44",
+      "unidade": "CGOF/SAA",
+      "usuario": "cassiana.schio",
+      "descricao": "Processo remetido pela unidade CODEP"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "16/04/2025 09:42",
+      "unidade": "CODEP",
+      "usuario": "kelly.fernandes",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "15/04/2025 17:46",
+      "unidade": "CODEP",
+      "usuario": "ada.regina",
+      "descricao": "Processo remetido pela unidade COGEP"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "15/04/2025 17:42",
+      "unidade": "COGEP",
+      "usuario": "cid.furtado",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "15/04/2025 17:28",
+      "unidade": "COGEP",
+      "usuario": "ducilene.andrade",
+      "descricao": "Processo remetido pela unidade COGAD/SAA"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "15/04/2025 14:37",
+      "unidade": "COGAD/SAA",
+      "usuario": "ducilene.andrade",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "15/04/2025 14:35",
+      "unidade": "COGAD/SAA",
+      "usuario": "diogo.sousa",
+      "descricao": "Processo remetido pela unidade CGOF/SAA"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "04/04/2025 10:16",
+      "unidade": "CGOF/SAA",
+      "usuario": "diogo.sousa",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "03/04/2025 17:15",
+      "unidade": "CGOF/SAA",
+      "usuario": "karina.fonseca",
+      "descricao": "Processo remetido pela unidade COGAD/SAA"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "27/03/2025 11:02",
+      "unidade": "COGAD/SAA",
+      "usuario": "karina.fonseca",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "27/03/2025 09:38",
+      "unidade": "COGAD/SAA",
+      "usuario": "diogo.sousa",
+      "descricao": "Processo remetido pela unidade CGOF/SAA"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "26/03/2025 11:08",
+      "unidade": "CGOF/SAA",
+      "usuario": "diogo.sousa",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "25/03/2025 20:06",
+      "unidade": "CGOF/SAA",
+      "usuario": "ducilene.andrade",
+      "descricao": "Processo remetido pela unidade COGAD/SAA"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "21/03/2025 17:02",
+      "unidade": "COGAD/SAA",
+      "usuario": "karina.fonseca",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "21/03/2025 16:58",
+      "unidade": "COGAD/SAA",
+      "usuario": "marcello.fernandes",
+      "descricao": "Processo remetido pela unidade CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "21/03/2025 08:19",
+      "unidade": "CGLIC",
+      "usuario": "romario.freitas",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "21/03/2025 08:19",
+      "unidade": "CGLIC",
+      "usuario": "raphael.carvalho",
+      "descricao": "Processo remetido pela unidade CCLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "20/03/2025 17:37",
+      "unidade": "CCLIC",
+      "usuario": "raphael.carvalho",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "20/03/2025 17:08",
+      "unidade": "CCLIC",
+      "usuario": "rodrigo.torres",
+      "descricao": "Processo remetido pela unidade DIQUALI/CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "20/03/2025 10:54",
+      "unidade": "DIQUALI/CGLIC",
+      "usuario": "rodrigo.torres",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "20/03/2025 10:46",
+      "unidade": "DIQUALI/CGLIC",
+      "usuario": "graciene.sousa",
+      "descricao": "Processo remetido pela unidade DIPLI"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "18/03/2025 15:13",
+      "unidade": "DIPLI",
+      "usuario": "graciene.sousa",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "18/03/2025 15:11",
+      "unidade": "DIPLI",
+      "usuario": "rodrigo.torres",
+      "descricao": "Processo remetido pela unidade DIQUALI/CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "17/03/2025 18:30",
+      "unidade": "DIQUALI/CGLIC",
+      "usuario": "vinicius.cardoso",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "17/03/2025 17:14",
+      "unidade": "DIQUALI/CGLIC",
+      "usuario": "marcello.fernandes",
+      "descricao": "Processo remetido pela unidade CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "17/03/2025 15:46",
+      "unidade": "CGLIC",
+      "usuario": "heloisa.pires",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "17/03/2025 15:41",
+      "unidade": "CGLIC",
+      "usuario": "vinicius.camargo",
+      "descricao": "Processo remetido pela unidade CGOF/SAA"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "17/03/2025 14:12",
+      "unidade": "DIQUALI/CGLIC",
+      "usuario": "rodrigo.torres",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "17/03/2025 14:12",
+      "unidade": "DIQUALI/CGLIC",
+      "usuario": "rodrigo.torres",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "17/03/2025 13:35",
+      "unidade": "DIQUALI/CGLIC",
+      "usuario": "raphael.carvalho",
+      "descricao": "Processo remetido pela unidade CCLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "17/03/2025 13:32",
+      "unidade": "CCLIC",
+      "usuario": "raphael.carvalho",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "17/03/2025 13:14",
+      "unidade": "CCLIC",
+      "usuario": "onesio.neto",
+      "descricao": "Processo remetido pela unidade DIPLAN/CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "17/03/2025 13:14",
+      "unidade": "DIQUALI/CGLIC",
+      "usuario": "onesio.neto",
+      "descricao": "Processo remetido pela unidade DIPLAN/CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "17/03/2025 12:48",
+      "unidade": "DIPLAN/CGLIC",
+      "usuario": "marilia.jesus",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "17/03/2025 11:16",
+      "unidade": "CGOF/SAA",
+      "usuario": "diogo.sousa",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "14/03/2025 16:18",
+      "unidade": "CCLIC",
+      "usuario": "raphael.carvalho",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "14/03/2025 16:17",
+      "unidade": "CCLIC",
+      "usuario": "raphael.carvalho",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "14/03/2025 16:11",
+      "unidade": "DIQUALI/CGLIC",
+      "usuario": "rodrigo.torres",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "14/03/2025 15:57",
+      "unidade": "CGOF/SAA",
+      "usuario": "marcello.fernandes",
+      "descricao": "Processo remetido pela unidade CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "14/03/2025 15:57",
+      "unidade": "DIPLAN/CGLIC",
+      "usuario": "marcello.fernandes",
+      "descricao": "Processo remetido pela unidade CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "14/03/2025 15:57",
+      "unidade": "DIQUALI/CGLIC",
+      "usuario": "marcello.fernandes",
+      "descricao": "Processo remetido pela unidade CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "14/03/2025 15:57",
+      "unidade": "CCLIC",
+      "usuario": "marcello.fernandes",
+      "descricao": "Processo remetido pela unidade CGLIC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "14/03/2025 13:44",
+      "unidade": "CGLIC",
+      "usuario": "romario.freitas",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "14/03/2025 13:42",
+      "unidade": "CGLIC",
+      "usuario": "fabiane.ferreira",
+      "descricao": "Processo remetido pela unidade CODEP"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "11/03/2025 15:19",
+      "unidade": "CODEP",
+      "usuario": "fabiane.ferreira",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "11/03/2025 15:17",
+      "unidade": "CODEP",
+      "usuario": "ducilene.andrade",
+      "descricao": "Processo remetido pela unidade COGAD/SAA"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "11/03/2025 15:16",
+      "unidade": "COGAD/SAA",
+      "usuario": "ducilene.andrade",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "11/03/2025 15:04",
+      "unidade": "COGAD/SAA",
+      "usuario": "jordana.meleiro",
+      "descricao": "Processo remetido pela unidade CGFISC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "11/03/2025 14:19",
+      "unidade": "CODEP",
+      "usuario": "fabiane.ferreira",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "11/03/2025 14:00",
+      "unidade": "CODEP",
+      "usuario": "enedina.silva",
+      "descricao": "Processo remetido pela unidade COGAD/SAA"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "11/03/2025 14:00",
+      "unidade": "COGAD/SAA",
+      "usuario": "enedina.silva",
+      "descricao": "Após publicação da Portaria Publicada 240/SAA (0046527764), devolvem-se os autos para conhecimento."
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "11/03/2025 12:02",
+      "unidade": "CGFISC",
+      "usuario": "wellington.santos",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "11/03/2025 12:02",
+      "unidade": "CGFISC",
+      "usuario": "fernanda.oandrade",
+      "descricao": "Processo remetido pela unidade COSAT"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "10/03/2025 16:58",
+      "unidade": "COSAT",
+      "usuario": "mariap.souza",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "10/03/2025 16:33",
+      "unidade": "COSAT",
+      "usuario": "jordana.meleiro",
+      "descricao": "Processo remetido pela unidade CGFISC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "10/03/2025 15:29",
+      "unidade": "CODEP",
+      "usuario": "fabiane.ferreira",
+      "descricao": "Iniciada a criação dos artefatos (ETP, MR, TR) no Sistema Compras e elaboração da documentação no SEI, de competência da Equipe de Planejamento da Contratação (Notas Técnicas, Atesto, Check-List, Despacho), bem como assinaturas pelos membros e anuência das autoridades competentes"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "07/03/2025 19:41",
+      "unidade": "COGAD/SAA",
+      "usuario": "carolina.alves",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "07/03/2025 19:15",
+      "unidade": "COGAD/SAA",
+      "usuario": "cassiana.schio",
+      "descricao": "Processo remetido pela unidade CODEP"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "06/03/2025 13:14",
+      "unidade": "CODEP",
+      "usuario": "cassiana.schio",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "05/03/2025 18:22",
+      "unidade": "CODEP",
+      "usuario": "patricia.escobar",
+      "descricao": "Processo remetido pela unidade DIORC"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "05/03/2025 15:47",
+      "unidade": "DIORC",
+      "usuario": "patricia.escobar",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "05/03/2025 15:44",
+      "unidade": "DIORC",
+      "usuario": "diogo.sousa",
+      "descricao": "Processo remetido pela unidade CGOF/SAA"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "05/03/2025 15:43",
+      "unidade": "CGOF/SAA",
+      "usuario": "diogo.sousa",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "05/03/2025 15:18",
+      "unidade": "CGFISC",
+      "usuario": "felipec.sousa",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "05/03/2025 14:51",
+      "unidade": "CGOF/SAA",
+      "usuario": "cassiana.schio",
+      "descricao": "Processo remetido pela unidade CODEP"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "05/03/2025 14:51",
+      "unidade": "CGFISC",
+      "usuario": "cassiana.schio",
+      "descricao": "Processo remetido pela unidade CODEP"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "27/02/2025 17:17",
+      "unidade": "COPAG/COGEP",
+      "usuario": "jailson.pereira",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "27/02/2025 17:14",
+      "unidade": "COPAG/COGEP",
+      "usuario": "jailson.pereira",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "27/02/2025 17:13",
+      "unidade": "COPAG/COGEP",
+      "usuario": "jailson.pereira",
+      "descricao": "Processo remetido pela unidade CGOF/SAA"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "27/02/2025 17:12",
+      "unidade": "CGOF/SAA",
+      "usuario": "jailson.pereira",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "26/02/2025 15:42",
+      "unidade": "CODEP",
+      "usuario": "cassiana.schio",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "26/02/2025 15:18",
+      "unidade": "CODEP",
+      "usuario": "diogo.sousa",
+      "descricao": "Processo remetido pela unidade CGOF/SAA"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "26/02/2025 14:58",
+      "unidade": "CGOF/SAA",
+      "usuario": "diogo.sousa",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "25/02/2025 18:30",
+      "unidade": "CODEP",
+      "usuario": "cassiana.schio",
+      "descricao": "Envio de correspondência eletrônica 0046337286 (E-mail)"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "25/02/2025 16:41",
+      "unidade": "CODEP",
+      "usuario": "leticia.soares",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "25/02/2025 15:43",
+      "unidade": "CODEP",
+      "usuario": "marcelo.amaral",
+      "descricao": "Processo remetido pela unidade COGEP"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "25/02/2025 15:40",
+      "unidade": "COGEP",
+      "usuario": "cid.furtado",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "25/02/2025 15:37",
+      "unidade": "COGEP",
+      "usuario": "diogo.sousa",
+      "descricao": "Processo remetido pela unidade CGOF/SAA"
+    },
+    {
+      "processo_id": "desc",
+      "data_hora": "18/02/2025 17:15",
+      "unidade": "CGOF/SAA",
+      "usuario": "diogo.sousa",
+      "descricao": "Processo restrito gerado, Informação Pessoal (Art. 31 da Lei nº 12.527/2011)"
+    }
+  ],
+  "paginas_processadas": [
+    "https://sei.saude.gov.br/sei/controlador.php?acao=procedimento_trabalhar&acao_origem=protocolo_pesquisa_rapida&id_protocolo=49609058&infra_sistema=100000100&infra_unidade_atual=110003097&infra_hash=9f7190373a74b09beb4fd0fe7797d1f9d87c76985c273036ae63f0450005fde4",
+    "https://sei.saude.gov.br/sei/controlador.php?acao=procedimento_trabalhar&acao_origem=protocolo_pesquisa_rapida&id_protocolo=49609058&infra_sistema=100000100&infra_unidade_atual=110003097&infra_hash=9f7190373a74b09beb4fd0fe7797d1f9d87c76985c273036ae63f0450005fde4"
+  ],
+  "metadata": {
+    "fonte": "SEI Extractor v3.2",
+    "extraido_em": "2025-06-26T14:47:49.035Z"
+  }
+}

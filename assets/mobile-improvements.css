@@ -1,0 +1,462 @@
+/* ========================================
+   MELHORIAS DE RESPONSIVIDADE MOBILE
+   Sistema de Licitações CGLIC
+======================================== */
+
+/* Reset e configurações base para mobile */
+@media (max-width: 768px) {
+    /* Configurações gerais */
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    /* Melhorias para o Dashboard */
+    .dashboard-container {
+        flex-direction: column;
+        height: auto;
+        min-height: 100vh;
+    }
+    
+    /* Sidebar responsiva */
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -300px;
+        width: 280px;
+        height: 100vh;
+        z-index: 1000;
+        transition: left 0.3s ease;
+        background: white;
+        box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+    }
+    
+    .sidebar.mobile-open {
+        left: 0;
+    }
+    
+    /* Botão para abrir menu mobile */
+    .mobile-menu-toggle {
+        display: block !important;
+        position: fixed;
+        top: 15px;
+        left: 15px;
+        z-index: 1001;
+        background: #3498db;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        cursor: pointer;
+    }
+    
+    /* Overlay para fechar menu */
+    .mobile-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0,0,0,0.5);
+        z-index: 999;
+    }
+    
+    .mobile-overlay.active {
+        display: block;
+    }
+    
+    /* Main content com menu mobile */
+    .main-content {
+        width: 100%;
+        margin-left: 0;
+        padding: 60px 15px 20px;
+    }
+    
+    /* Header do dashboard */
+    .dashboard-header {
+        margin-bottom: 20px;
+    }
+    
+    .dashboard-header h1 {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+    
+    .dashboard-header p {
+        font-size: 14px;
+    }
+    
+    /* Cards de estatísticas */
+    .stats-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+        margin-bottom: 25px;
+    }
+    
+    .stat-card {
+        padding: 16px;
+        text-align: center;
+    }
+    
+    .stat-number {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    
+    .stat-label {
+        font-size: 12px;
+    }
+    
+    /* Gráficos */
+    .charts-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .chart-card {
+        padding: 16px;
+    }
+    
+    .chart-title {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    
+    /* Filtros */
+    .filtros-card {
+        padding: 16px;
+        margin-bottom: 20px;
+    }
+    
+    .filtros-form {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    .filtros-form > div {
+        width: 100%;
+    }
+    
+    .filtros-form input,
+    .filtros-form select {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px; /* Evita zoom no iOS */
+    }
+    
+    /* Tabelas responsivas */
+    .table-container {
+        margin: 0 -15px;
+        padding: 0;
+        border-radius: 0;
+    }
+    
+    .table-header {
+        padding: 16px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 15px;
+    }
+    
+    .table-actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    /* Tabela com scroll horizontal */
+    table {
+        min-width: 800px;
+    }
+    
+    .table-container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    /* Alternativa: Cards para mobile */
+    .mobile-card-view {
+        display: none;
+    }
+    
+    @media (max-width: 600px) {
+        .desktop-table-view {
+            display: none;
+        }
+        
+        .mobile-card-view {
+            display: block;
+        }
+        
+        .mobile-item-card {
+            background: white;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-left: 4px solid #3498db;
+        }
+        
+        .mobile-item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        
+        .mobile-item-title {
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 16px;
+        }
+        
+        .mobile-item-status {
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+        
+        .mobile-item-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+        
+        .mobile-item-detail {
+            font-size: 13px;
+        }
+        
+        .mobile-item-detail-label {
+            color: #6c757d;
+            font-weight: 500;
+        }
+        
+        .mobile-item-actions {
+            display: flex;
+            gap: 8px;
+            justify-content: flex-end;
+        }
+        
+        .mobile-action-btn {
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+    }
+    
+    /* Formulários mobile */
+    .form-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        font-size: 16px; /* Evita zoom no iOS */
+        padding: 14px;
+    }
+    
+    /* Modais mobile */
+    .modal-content {
+        margin: 20px;
+        max-width: calc(100vw - 40px);
+        max-height: calc(100vh - 40px);
+        overflow-y: auto;
+    }
+    
+    .modal-header {
+        padding: 16px;
+    }
+    
+    .modal-body {
+        padding: 16px;
+    }
+    
+    /* Botões mobile */
+    .btn-primary,
+    .btn-secondary {
+        padding: 14px 20px;
+        font-size: 16px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    /* Paginação mobile */
+    .pagination-container {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    
+    .pagination-nav {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    
+    .pagination-btn {
+        min-width: 36px;
+        height: 36px;
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+    
+    /* Upload de arquivos */
+    .upload-card {
+        padding: 16px;
+        text-align: center;
+    }
+    
+    .upload-card input[type="file"] {
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
+    }
+    
+    /* Toast notifications mobile */
+    .toast-container {
+        top: 10px;
+        right: 10px;
+        left: 10px;
+        max-width: none;
+    }
+    
+    .toast {
+        margin-bottom: 8px;
+        padding: 12px;
+        font-size: 14px;
+    }
+}
+
+/* Melhorias específicas para telas muito pequenas */
+@media (max-width: 480px) {
+    .main-content {
+        padding: 60px 10px 20px;
+    }
+    
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    
+    .stat-card {
+        padding: 12px;
+    }
+    
+    .stat-number {
+        font-size: 18px;
+    }
+    
+    .stat-label {
+        font-size: 11px;
+    }
+    
+    .chart-card {
+        padding: 12px;
+    }
+    
+    .modal-content {
+        margin: 10px;
+        max-width: calc(100vw - 20px);
+    }
+}
+
+/* Melhorias para landscape em tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .sidebar {
+        width: 250px;
+    }
+    
+    .main-content {
+        margin-left: 250px;
+        padding: 20px;
+    }
+    
+    .stats-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .charts-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Utilitários para esconder/mostrar elementos */
+.mobile-only {
+    display: none;
+}
+
+.desktop-only {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .mobile-only {
+        display: block;
+    }
+    
+    .desktop-only {
+        display: none;
+    }
+}
+
+/* Melhorias de toque */
+@media (hover: none) and (pointer: coarse) {
+    /* Aumentar área de toque para elementos interativos */
+    .nav-item,
+    .btn-acao,
+    .pagination-btn {
+        min-height: 44px;
+        min-width: 44px;
+    }
+    
+    /* Remover hover effects em dispositivos de toque */
+    .nav-item:hover,
+    .btn-primary:hover,
+    .btn-secondary:hover {
+        transform: none;
+    }
+    
+    /* Adicionar feedback visual para toque */
+    .nav-item:active,
+    .btn-primary:active,
+    .btn-secondary:active {
+        transform: scale(0.95);
+        transition: transform 0.1s ease;
+    }
+}
+
+/* Melhorias de acessibilidade */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Dark mode support (se implementado futuramente) */
+@media (prefers-color-scheme: dark) {
+    .mobile-menu-toggle {
+        background: #2c3e50;
+    }
+    
+    .mobile-item-card {
+        background: #34495e;
+        color: white;
+    }
+}
