@@ -1383,7 +1383,7 @@ window.pesquisarContratacaoInline = function(termo) {
     for (var j = 0; j < resultados.length; j++) {
         var r = resultados[j];
         // Passar numero_dfd e titulo_contratacao para a função selecionarContratacao
-        html += '<div class="suggestion-item" onclick="window.selecionarContratacao(\'' + r.numero_contratacao + '\', \'' + (r.numero_dfd || '') + '\', \'' + (r.titulo_contratacao || '').replace(/'/g, "\\'") + '\')">';
+        html += '<div class="suggestion-item" onclick="window.selecionarContratacao(\'' + r.numero_contratacao + '\', \'' + (r.numero_dfd || '') + '\', \'' + (r.titulo_contratacao || '').replace(/'/g, "\\'") + '\')" onmousedown="event.preventDefault()">';
         html += '<div class="suggestion-numero">' + r.numero_contratacao + '</div>';
         html += '<div class="suggestion-titulo">' + (r.titulo_contratacao || '').substring(0, 70) + '...</div>';
         html += '</div>';
@@ -1446,10 +1446,18 @@ window.selecionarContratacao = function(numero, numero_dfd, titulo_contratacao) 
 };
 
 window.mostrarSugestoesInline = function() {};
-window.ocultarSugestoesInline = function() {
+window.ocultarSugestoesInline = function(event) {
+    // Não ocultar se o clique foi em uma sugestão
+    if (event && event.relatedTarget && event.relatedTarget.closest('.suggestion-item')) {
+        return;
+    }
+    
     setTimeout(function() {
-        document.getElementById('sugestoes_contratacao').style.display = 'none';
-    }, 200);
+        var sugestoes = document.getElementById('sugestoes_contratacao');
+        if (sugestoes) {
+            sugestoes.style.display = 'none';
+        }
+    }, 300);
 };
 
 console.log('Sistema carregado com sucesso!');
@@ -1716,7 +1724,7 @@ window.verDetalhes = function(id) {
         for (var j = 0; j < resultados.length; j++) {
             var r = resultados[j];
             // Passar numero_dfd e titulo_contratacao para a função selecionarContratacaoEdit
-            html += '<div class="suggestion-item" onclick="window.selecionarContratacaoEdit(\'' + r.numero_contratacao + '\', \'' + (r.numero_dfd || '') + '\', \'' + (r.titulo_contratacao || '').replace(/'/g, "\\'") + '\')">';
+            html += '<div class="suggestion-item" onclick="window.selecionarContratacaoEdit(\'' + r.numero_contratacao + '\', \'' + (r.numero_dfd || '') + '\', \'' + (r.titulo_contratacao || '').replace(/'/g, "\\'") + '\')" onmousedown="event.preventDefault()">';
             html += '<div class="suggestion-numero">' + r.numero_contratacao + '</div>';
             html += '<div class="suggestion-titulo">' + (r.titulo_contratacao || '').substring(0, 70) + '...</div>';
             html += '</div>';
@@ -1766,10 +1774,18 @@ window.verDetalhes = function(id) {
     };
 
     window.mostrarSugestoesInlineEdit = function() {};
-    window.ocultarSugestoesInlineEdit = function() {
+    window.ocultarSugestoesInlineEdit = function(event) {
+        // Não ocultar se o clique foi em uma sugestão
+        if (event && event.relatedTarget && event.relatedTarget.closest('.suggestion-item')) {
+            return;
+        }
+        
         setTimeout(function() {
-            document.getElementById('edit_sugestoes_contratacao').style.display = 'none';
-        }, 200);
+            var sugestoes = document.getElementById('edit_sugestoes_contratacao');
+            if (sugestoes) {
+                sugestoes.style.display = 'none';
+            }
+        }, 300);
     };
 })();
 

@@ -996,8 +996,15 @@ document.addEventListener('DOMContentLoaded', function() {
  * Fechar modais ao clicar fora
  */
 window.onclick = function(event) {
+    // Verificar se o clique foi em um modal (fundo)
     if (event.target.classList.contains('modal')) {
-        event.target.style.display = 'none';
+        // Verificar se não foi clique em sugestões de contratação ou outros elementos interativos
+        if (!event.target.closest('.search-suggestions') && 
+            !event.target.classList.contains('suggestion-item') &&
+            !event.target.closest('.suggestion-item') &&
+            !event.target.closest('.search-container')) {
+            event.target.style.display = 'none';
+        }
     }
 }
 
